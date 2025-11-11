@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Página Personal</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+
+</head>
+<body>
+  <div class="container">
+    <header>
+      <div class="brand">
+        <div class="avatar" href="per.webp"></div>
+        <div>
+          <h1>Pérez  Angeles Roberto de Asis</h1>
+        </div>
+      </div>
+
+      <nav>
+        <a class="btn" href="#info">Información</a>
+        <a class="btn" href="#formacion">Formación</a>
+        <a class="btn" href="#hobbies">Hobbies</a>
+      </nav>
+    </header>
+
+    <main>
+      <div>
+        <!-- Información general -->
+        <section id="info" class="card">
+          <h2>Información general</h2>
+          <p>Hola soy <strong>Roberto</strong> Estudiante de Ing. en Sistemas Computacionales en ESCOM IPN</p>
+
+          <div class="info-grid">
+            <div class="info-item"><strong>Ubicación:</strong> CDMX</div>
+            <div class="info-item"><strong>Correo:</strong> rp200420@gmail.com</div>
+            <div class="info-item"><strong>Teléfono:</strong> +52 7714221085</div>
+          </div>
+        </section>
+
+        <!-- Formación -->
+        <section id="formacion" class="card">
+          <h2>Formación</h2>
+          <div class="edu-item">
+            <h3>Ingeniería en Sistemas Computacionales — ESCOM IPN</h3>
+            <p>2023 — Actualidad · CDMX, México</p>
+          </div>
+          <div class="edu-item">
+            <h3>Técnico en programación — CBTis No.199</h3>
+            <p>2019 — 2022 · Hidalgo, México</p>
+          </div>
+        </section>
+
+        <!-- Hobbies -->
+        <section id="hobbies" class="card">
+          <h2>Hobbies</h2>
+          <div class="hobbies">
+            <div class="chip">Programación</div>
+            <div class="chip">Videojuegos</div>
+          </div>
+        </section>
+      </div>
+
+      <aside>
+        <div class="card">
+          <h2>Redes sociales</h2>
+          <div class="socials">
+            <a href="https://mx.linkedin.com/" target="_blank" title="LinkedIn"><i class="fab fa-linkedin"></i> </a>
+            <a href="https://www.facebook.com/roberto.perez.400643/" target="_blank" title="Facebook"> <i class="fab fa-facebook-f"></i></a>
+            <a href="https://www.instagram.com/_roberto.p0?igsh=M2dkZzY1cjVqa3E0" target="_blank" title="Instagram"><i class="fab fa-instagram"></i></a>
+
+          </div>
+<br>
+          <div class="download-cv">
+            <a href="Cv.pdf" target="_blank" download>Descargar CV (PDF)</a>
+          </div>
+        </div>
+
+      </aside>
+    </main>
+
+    <footer>
+      © <span id="ano"></span> Roberto Pérez
+    </footer>
+  </div>
+
+  <script>
+    document.getElementById("ano").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
