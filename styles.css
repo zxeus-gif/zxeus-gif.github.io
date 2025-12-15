@@ -157,6 +157,16 @@ footer {
   main {
     grid-template-columns: 1fr;
   }
-
-
 }
+.download-pem a {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 10px 14px;
+  border-radius: 10px;
+  background: linear-gradient(90deg, #facc15, #f97316);
+  color: #1f1300;
+  text-decoration: none;
+  font-weight: 700;
+  text-align: center;
+}
+
